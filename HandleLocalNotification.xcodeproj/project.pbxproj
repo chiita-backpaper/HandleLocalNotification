@@ -11,6 +11,7 @@
 		524B408C27981ACF00A95E60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524B408B27981ACF00A95E60 /* ContentView.swift */; };
 		524B408E27981AD000A95E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524B408D27981AD000A95E60 /* Assets.xcassets */; };
 		524B409127981AD000A95E60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524B409027981AD000A95E60 /* Preview Assets.xcassets */; };
+		524B409827981B0C00A95E60 /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524B409727981B0C00A95E60 /* NotificationHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		524B408B27981ACF00A95E60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		524B408D27981AD000A95E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		524B409027981AD000A95E60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		524B409727981B0C00A95E60 /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				524B408927981ACF00A95E60 /* HandleLocalNotificationApp.swift */,
 				524B408B27981ACF00A95E60 /* ContentView.swift */,
+				524B409727981B0C00A95E60 /* NotificationHandler.swift */,
 				524B408D27981AD000A95E60 /* Assets.xcassets */,
 				524B408F27981AD000A95E60 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				524B408C27981ACF00A95E60 /* ContentView.swift in Sources */,
+				524B409827981B0C00A95E60 /* NotificationHandler.swift in Sources */,
 				524B408A27981ACF00A95E60 /* HandleLocalNotificationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
